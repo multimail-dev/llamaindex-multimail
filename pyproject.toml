@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "llamaindex-multimail"
+version = "0.1.0"
+description = "LlamaIndex tools for MultiMail -- give your LlamaIndex agents email capabilities"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [{ name = "MultiMail", email = "dev@multimail.dev" }]
+keywords = ["llamaindex", "llama-index", "email", "ai", "agents", "multimail", "tools"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Communications :: Email",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "multimail>=0.1.0",
+    "llama-index-core>=0.10.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "llama-index>=0.10.0"]
+
+[project.urls]
+Homepage = "https://multimail.dev"
+Documentation = "https://multimail.dev/docs"
+Repository = "https://github.com/multimail-dev/llamaindex-multimail"
