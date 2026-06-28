@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "llamaindex-multimail"
-version = "0.1.0"
+version = "0.1.1"
 description = "LlamaIndex tools for MultiMail -- give your LlamaIndex agents email capabilities"
 readme = "README.md"
 license = "MIT"
